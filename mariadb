@@ -1,0 +1,16 @@
+# after installation mariadb.
+ 
+# secure mariadb
+
+sudo mysql_secure_installation
+
+# login to db
+
+sudo mysql -u root -p
+
+#create db and user for wordpress 
+
+CREATE DATABASE wordpress;
+GRANT ALL PRIVILEGES ON wordpress.* TO 'UR USER'@'UR localhost' IDENTIFIED BY 'your_password';
+FLUSH PRIVILEGES;
+EXIT;

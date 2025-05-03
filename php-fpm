@@ -1,0 +1,11 @@
+
+## user and group
+sudo nano /etc/php-fpm.d/www.conf
+
+user = nginx
+group = nginx
+
+
+# restart php-fpm
+
+sudo systemctl restart php-fpm
