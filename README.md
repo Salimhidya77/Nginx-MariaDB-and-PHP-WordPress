@@ -1,0 +1,1 @@
+ This a WordPress environment using Nginx, MariaDB, and PHP on a DNF-based system. It includes system updates, installation of Nginx and MariaDB, securing the database, creating a WordPress database and user, installing necessary PHP modules, downloading and installing WordPress, and configuring Nginx to work with WordPress.
